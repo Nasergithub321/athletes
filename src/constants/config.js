@@ -1,1 +1,1 @@
-export const base_url = 'https://2mpowerco.com/sports/api/';
+export const base_url = 'http://2mpowerco.com/sports/api/';
