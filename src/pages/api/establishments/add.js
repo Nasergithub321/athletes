@@ -1,0 +1,25 @@
+
+import nc from "next-connect";
+import cors from "cors";
+import axios from "axios";
+import {base_url} from 'constants/config';
+import { userService } from 'services';
+
+export default async function handler(req, res) {
+
+    return axios({
+      method: 'put',
+      headers:{'Authorization': 'Bearer '+req.body.token},
+      url: base_url+'Establishments/add',
+      data: req.body,
+    })
+      .then((results) => {
+        console.log(results.data.message)
+        res.status(results.status).json(results.data)
+      })
+      .catch((error) => {
+        console.log(error.ddata)
+        
+        res.status(error.status).json(error.response.data)
+      })
+}

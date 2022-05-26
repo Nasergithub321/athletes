@@ -1,0 +1,80 @@
+{
+  "name": "nextjs-admin-template",
+  "private": true,
+  "description": "Admin dashboard template based on nextjs with @paljs/ui component package",
+  "version": "0.1.0",
+  "author": "Ahmed Elywa",
+  "homepage":"http://test.kitchn8.com",
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "29.2.0",
+    "@ckeditor/ckeditor5-react": "3.0.2",
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.18",
+    "@hookform/resolvers": "^2.8.8",
+    "@material-ui/core": "^4.12.4",
+    "@mui/icons-material": "^5.6.2",
+    "@mui/material": "^5.7.0",
+    "@paljs/icons": "1.0.5",
+    "@paljs/ui": "1.1.1",
+    "@tinymce/tinymce-react": "3.12.6",
+    "axios": "^0.27.2",
+    "babel-plugin-macros": "^3.1.0",
+    "babel-plugin-styled-components": "^1.13.2",
+    "cors": "^2.8.5",
+    "mui-datatables": "^4.2.2",
+    "multiselect-react-dropdown": "^2.0.22",
+    "next": "^12.1.6",
+    "next-connect": "^0.12.2",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-hook-form": "^7.31.1",
+    "react-simple-multi-select": "^1.1.0",
+    "rxjs": "^7.5.5",
+    "styled-components": "5.3.1",
+    "yup": "^0.32.11"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "styled",
+    "oah"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start --port ${PORT-3000}",
+    "export": "yarn build && next export -o _static",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paljs/nextjs-admin-template"
+  },
+  "bugs": {
+    "url": "https://github.com/paljs/nextjs-admin-template/issues"
+  },
+  "devDependencies": {
+    "@types/node": "16.7.10",
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.5",
+    "@types/react-select": "4.0.17",
+    "@types/styled-components": "5.1.13",
+    "@typescript-eslint/eslint-plugin": "4.30.0",
+    "@typescript-eslint/parser": "4.30.0",
+    "eslint": "7.32.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-prettier": "4.0.0",
+    "eslint-plugin-react": "7.25.1",
+    "husky": "7.0.2",
+    "prettier": "2.3.2",
+    "pretty-quick": "3.1.1",
+    "react-live": "2.3.0",
+    "typescript": "4.4.2"
+  },
+  "resolutions": {}
+}

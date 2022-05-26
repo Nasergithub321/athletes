@@ -1,0 +1,16 @@
+module.exports = {
+    images: {
+      loader:"imgix",
+      path:'/',
+      domains: ['2mpowerco.com'],
+    },
+    typescript: {
+      // !! WARN !!
+      // Dangerously allow production builds to successfully complete even if
+      // your project has type errors.
+      // !! WARN !!
+      ignoreBuildErrors: true,
+    },
+    trailingSlash: true,
+    exportPathMap: () => ({})
+  }

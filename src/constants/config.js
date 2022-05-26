@@ -1,0 +1,1 @@
+export const base_url = 'http://2mpowerco.com/sports/api/';
