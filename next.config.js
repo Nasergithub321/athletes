@@ -9,6 +9,5 @@ module.exports = {
       // !! WARN !!
       ignoreBuildErrors: true,
     },
-    trailingSlash: true,
-    exportPathMap: () => ({})
+    trailingSlash: true
   }
