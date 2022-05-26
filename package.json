@@ -4,6 +4,7 @@
   "description": "Admin dashboard template based on nextjs with @paljs/ui component package",
   "version": "0.1.0",
   "author": "Ahmed Elywa",
+  "homepage": ".",
   "dependencies": {
     "@ckeditor/ckeditor5-build-classic": "29.2.0",
     "@ckeditor/ckeditor5-react": "3.0.2",
@@ -31,6 +32,7 @@
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-hook-form": "^7.31.1",
+    "react-router-dom": "^6.3.0",
     "react-simple-multi-select": "^1.1.0",
     "rxjs": "^7.5.5",
     "styled-components": "5.3.1",
