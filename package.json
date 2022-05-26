@@ -4,7 +4,7 @@
   "description": "Admin dashboard template based on nextjs with @paljs/ui component package",
   "version": "0.1.0",
   "author": "Ahmed Elywa",
-  "homepage":"http://test.kitchn8.com",
+  "homepage":"https://athletesapp.vercel.app",
   "dependencies": {
     "@ckeditor/ckeditor5-build-classic": "29.2.0",
     "@ckeditor/ckeditor5-react": "3.0.2",
