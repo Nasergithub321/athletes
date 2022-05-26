@@ -1,7 +1,5 @@
 module.exports = {
     images: {
-      loader:"imgix",
-      path:'/',
       domains: ['2mpowerco.com'],
     },
     typescript: {
